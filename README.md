@@ -13,24 +13,24 @@ NOTE: You must install ruby-serialport in order to use this library:
 https://github.com/hparra/ruby-serialport
 
 ## Installation
-
-> sudo gem install serialport
-> sudo gem install rain8net
-
+```bash
+sudo gem install serialport
+sudo gem install rain8net
+```
 or, put this in your Gemfile:
-
-> gem 'serialport'
-> gem 'rain8net'
-
+```ruby
+gem 'serialport'
+gem 'rain8net'
+```
 ## Usage
-
-> r8 = Rain8net.new(tty: 0)
-> r8.turn_on_zone(1)
-> sleep(30) # run for 30 seconds...
-> puts r8.zone_status(1) # => true
-> puts r8.zone_status(2) # => false
-> r8.turn_off_zone(1)
-
+```ruby
+r8 = Rain8net.new(tty: 0)
+r8.turn_on_zone(1)
+sleep(30) # run for 30 seconds...
+puts r8.zone_status(1) # => true
+puts r8.zone_status(2) # => false
+r8.turn_off_zone(1)
+```
 ## Tips
 
 * Be sure the user running your rails application has R/W access to the serial port. (try: chmod 777 /dev/ttyS0)
