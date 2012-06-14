@@ -9,17 +9,12 @@ More information about the Rain8 series of products can be found at WGL Designs.
 
 http://www.wgldesigns.com
 
-NOTE: You must install ruby-serialport in order to use this library:
-https://github.com/hparra/ruby-serialport
-
 ## Installation
 ```bash
-sudo gem install serialport
 sudo gem install rain8net
 ```
 or, put this in your Gemfile:
 ```ruby
-gem 'serialport'
 gem 'rain8net'
 ```
 ## Usage
