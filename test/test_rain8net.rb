@@ -1,6 +1,5 @@
 #:nodoc: all
-require "test/unit"
-require "../lib/rain8net"
+require "helper"
 class TestRain8net < Test::Unit::TestCase
   
   def initialize(options)
