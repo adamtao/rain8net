@@ -6,8 +6,10 @@ ability to be expanded with with several networked modules. This ruby library ca
 of Rain8net devices from your ruby app.
 
 More information about the Rain8 series of products can be found at WGL Designs. 
-
 http://www.wgldesigns.com
+
+If you aren't quite sure how to use this gem, take a look at the sample rails application
+https://github.com/adamtao/irrigatomatic
 
 ## Installation
 ```bash
